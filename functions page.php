@@ -532,7 +532,7 @@ function send_email($sender_email, $reciever_email, $reciever_name, $subject, $b
 		$mail->Host       = 'mail.finetrades.co.za';                     //Set the SMTP server to send through
 		$mail->SMTPAuth   = true;                                   //Enable SMTP authentication
 		$mail->Username   = "$sender_email";                     //SMTP username
-		$mail->Password   = 'p[CC,%=j9dYL';                               //SMTP password
+		$mail->Password   = '';                               //SMTP password
 		$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
 		$mail->Port       = 465;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
@@ -582,7 +582,7 @@ function send_to_store_email($sender_email, $reciever_email, $reciever_name, $su
 		$mail->Host       = 'mail.finetrades.co.za';                     //Set the SMTP server to send through
 		$mail->SMTPAuth   = true;                                   //Enable SMTP authentication
 		$mail->Username   = "$sender_email";                     //SMTP username
-		$mail->Password   = 'u43?$N!=Y@i#';                               //SMTP password
+		$mail->Password   = '';                               //SMTP password
 		$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
 		$mail->Port       = 465;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
